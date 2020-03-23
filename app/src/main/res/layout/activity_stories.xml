@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stories"
+    android:orientation="vertical">
+
+
+   <Button
+       android:id="@+id/btn_anbyaa_stories"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="قصص الأنبياء"
+       android:textColor="@android:color/holo_blue_light"
+       android:background="@android:color/white"
+       android:textStyle="bold"
+       />
+   <Button
+       android:id="@+id/btn_tarbawya_stories"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="قصص تربوية" />
+
+   <Button
+       android:id="@+id/btn_interesting_stories"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="قصص ممتعة" />
+</LinearLayout>
