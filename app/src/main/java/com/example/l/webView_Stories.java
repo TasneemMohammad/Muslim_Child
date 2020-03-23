@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.widget.Button;
-import android.widget.Toast;
 
 public class webView_Stories extends AppCompatActivity {
     WebView web_stories ;
@@ -20,7 +19,7 @@ public class webView_Stories extends AppCompatActivity {
         Intent data = getIntent();
         int page = data.getExtras().getInt("page");
         page++;
-        web_stories.loadUrl("https://www.facebook.com" );
-        Toast.makeText(this,"test",Toast.LENGTH_SHORT).show();
+        web_stories.loadUrl("file:///android_asset/html/" + page + ".txt" );
+
     }
 }
