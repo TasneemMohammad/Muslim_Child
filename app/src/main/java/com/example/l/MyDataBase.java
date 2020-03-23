@@ -8,8 +8,8 @@ import android.widget.Toast;
 import androidx.annotation.Nullable;
 
 public class MyDataBase extends SQLiteOpenHelper {
-    public MyDataBase(@Nullable Context context, @Nullable String name, @Nullable SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+    public MyDataBase(@Nullable Context context) {
+        super(context,"car", null,1);
     }
 
     @Override
